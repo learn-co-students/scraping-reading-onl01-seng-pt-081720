@@ -1,8 +1,8 @@
 tags: 
-  - scraping
-  - nokogiri
-  - open-uri
-  - xml
-languages: 
+  - scraping	 
+  - nokogiri	  
+  - open-uri	  
+  - xml	  
+languages: 0	
   - ruby
-resources: 1
+resources: 1	
