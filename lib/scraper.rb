@@ -1,4 +1,6 @@
+require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
-
-html = open("https://flatironschool.com/")
+   
+page = Nokogiri::HTML(open("http://en.wikipedia.org/"))   
+puts page.class   # => Nokogiri::HTML::Document
